@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A2AEB8D219C60BD0097548D /* Atoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2AEB8C219C60BD0097548D /* Atoms.swift */; };
+		3A41430722287DF500B66F4F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3A41430622287DF500B66F4F /* README.md */; };
 		3A68604F2199BC75002DEAA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A68604E2199BC75002DEAA1 /* AppDelegate.swift */; };
 		3A6860512199BC75002DEAA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6860502199BC75002DEAA1 /* ViewController.swift */; };
 		3A6860542199BC75002DEAA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6860522199BC75002DEAA1 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		3A2AEB8C219C60BD0097548D /* Atoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atoms.swift; sourceTree = "<group>"; };
+		3A41430622287DF500B66F4F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3A68604B2199BC75002DEAA1 /* Chemistry Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chemistry Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A68604E2199BC75002DEAA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A6860502199BC75002DEAA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 			children = (
 				3A68604D2199BC75002DEAA1 /* Chemistry Calculator */,
 				3A68604C2199BC75002DEAA1 /* Products */,
+				3A41430622287DF500B66F4F /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +142,7 @@
 			files = (
 				3A6860592199BC76002DEAA1 /* LaunchScreen.storyboard in Resources */,
 				3A6860562199BC76002DEAA1 /* Assets.xcassets in Resources */,
+				3A41430722287DF500B66F4F /* README.md in Resources */,
 				3A6860542199BC75002DEAA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
