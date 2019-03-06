@@ -18,6 +18,7 @@
 		3A6860652199C24B002DEAA1 /* FindMolecularMass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6860642199C24B002DEAA1 /* FindMolecularMass.swift */; };
 		3A6860672199C26E002DEAA1 /* FindFromGramToMolAtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6860662199C26E002DEAA1 /* FindFromGramToMolAtom.swift */; };
 		3A6860692199C298002DEAA1 /* FindFromMolAtomToGram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6860682199C298002DEAA1 /* FindFromMolAtomToGram.swift */; };
+		3ABFF4C022302A18002998BB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABFF4BF22302A18002998BB /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		3A6860642199C24B002DEAA1 /* FindMolecularMass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMolecularMass.swift; sourceTree = "<group>"; };
 		3A6860662199C26E002DEAA1 /* FindFromGramToMolAtom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFromGramToMolAtom.swift; sourceTree = "<group>"; };
 		3A6860682199C298002DEAA1 /* FindFromMolAtomToGram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFromMolAtomToGram.swift; sourceTree = "<group>"; };
+		3ABFF4BF22302A18002998BB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				3A6860642199C24B002DEAA1 /* FindMolecularMass.swift */,
 				3A6860662199C26E002DEAA1 /* FindFromGramToMolAtom.swift */,
 				3A6860682199C298002DEAA1 /* FindFromMolAtomToGram.swift */,
+				3ABFF4BF22302A18002998BB /* SearchViewController.swift */,
 				3A2AEB8C219C60BD0097548D /* Atoms.swift */,
 				3A6860522199BC75002DEAA1 /* Main.storyboard */,
 				3A6860552199BC76002DEAA1 /* Assets.xcassets */,
@@ -156,6 +159,7 @@
 			files = (
 				3A6860692199C298002DEAA1 /* FindFromMolAtomToGram.swift in Sources */,
 				3A6860632199C20C002DEAA1 /* FindMolNumber.swift in Sources */,
+				3ABFF4C022302A18002998BB /* SearchViewController.swift in Sources */,
 				3A2AEB8D219C60BD0097548D /* Atoms.swift in Sources */,
 				3A6860652199C24B002DEAA1 /* FindMolecularMass.swift in Sources */,
 				3A6860672199C26E002DEAA1 /* FindFromGramToMolAtom.swift in Sources */,

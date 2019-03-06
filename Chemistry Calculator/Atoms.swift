@@ -21,37 +21,60 @@ class atom {
 }
 
 let atomsName = [
-    "\(hydrogen.name)",
-    "\(helium.name)",
-    "\(lithium.name)",
-    "\(beryllium.name)",
-    "\(boron.name)",
-    "\(carbon.name)",
-    "\(nitrogen.name)",
-    "\(oxygen.name)",
-    "\(fluorine.name)",
-    "\(neon.name)",
-    "\(sodium.name)",
-    "\(magnesium.name)",
-    "\(aluminum.name)",
-    "\(silicon.name)",
-    "\(phosphate.name)",
-    "\(sulfur.name)",
-    "\(chlorine.name)",
-    "\(argon.name)",
-    "\(potassium.name)",
-    "\(calcium.name)",
-    "\(scandium.name)",
-    "\(titanium.name)",
-    "\(vanadyum.name)",
-    "\(chromium.name)",
-    "\(mangenese.name)",
-    "\(iron.name)",
-    "\(cobalt.name)",
-    "\(nickel.name)",
-    "\(copper.name)",
-    "\(zinc.name)",
-    "\(gallium.name)"
+    hydrogen.name,
+    helium.name,
+    lithium.name,
+    beryllium.name,
+    boron.name,
+    carbon.name,
+    nitrogen.name,
+    oxygen.name,
+    fluorine.name,
+    neon.name,
+    sodium.name,
+    magnesium.name,
+    aluminum.name,
+    silicon.name,
+    phosphate.name,
+    sulfur.name,
+    chlorine.name,
+    argon.name,
+    potassium.name,
+    calcium.name,
+    scandium.name,
+    titanium.name,
+    vanadyum.name,
+    chromium.name,
+    mangenese.name,
+    iron.name,
+    cobalt.name,
+    nickel.name,
+    copper.name,
+    zinc.name,
+    gallium.name,
+    germanium.name,
+    arsenic.name,
+    selenium.name,
+    brom.name,
+    krypton.name,
+    rubidium.name,
+    strontium.name,
+    yttrium.name,
+    zirconium.name,
+    niobium.name,
+    molybdenum.name,
+    technetium.name,
+    ruthenium.name,
+    rhodium.name,
+    palladium.name,
+    silver.name,
+    cadmium.name,
+    indium.name,
+    stannic.name,
+    antimony.name,
+    tellurium.name,
+    iodine.name,
+    xenon.name,
 ]
 
 let hydrogen = atom(name: "Hydrogen", shortName: "Hi", number: 1)
@@ -86,3 +109,26 @@ let nickel = atom(name: "Nickel", shortName: "Ni", number: 59)
 let copper = atom(name: "Copper", shortName: "Cu", number: 64)
 let zinc = atom(name: "Zinc", shortName: "Zn", number: 65)
 let gallium = atom(name: "Gallium", shortName: "Ga", number: 70)
+let germanium = atom(name: "Germanium", shortName: "Ge", number: 73)
+let arsenic = atom(name: "Arsenic", shortName: "As", number: 75)
+let selenium = atom(name: "Selenium", shortName: "Se", number: 79)
+let brom = atom(name: "Brom", shortName: "Br", number: 80)
+let krypton = atom(name: "Krypton", shortName: "Kr", number: 84)
+let rubidium = atom(name: "Rubidium", shortName: "Rb", number: 85)
+let strontium = atom(name: "Strontium", shortName: "Sr", number: 88)
+let yttrium = atom(name: "Yttrium", shortName: "Y", number: 89)
+let zirconium = atom(name: "Zirconium", shortName: "Zr", number: 91)
+let niobium = atom(name: "Niobium", shortName: "Nb", number: 93)
+let molybdenum = atom(name: "Molybdenum", shortName: "Mo", number: 96)
+let technetium = atom(name: "Technetium", shortName: "Tc", number: 98)
+let ruthenium = atom(name: "Ruthenium", shortName: "Ru", number: 101)
+let rhodium = atom(name: "Rhodium", shortName: "Rh", number: 103)
+let palladium = atom(name: "Palladium", shortName: "Pd", number: 106)
+let silver = atom(name: "Silver", shortName: "Ag", number: 108)
+let cadmium = atom(name: "Cadmium", shortName: "Cd", number: 112)
+let indium = atom(name: "Indium", shortName: "In", number: 115)
+let stannic = atom(name: "Stannic", shortName: "Sn", number: 119)
+let antimony = atom(name: "Antimony", shortName: "Sb", number: 122)
+let tellurium = atom(name: "Tellurium", shortName: "Te", number: 128)
+let iodine = atom(name: "Iodine", shortName: "I", number: 127)
+let xenon = atom(name: "Xenon", shortName: "Xe", number: 131)
