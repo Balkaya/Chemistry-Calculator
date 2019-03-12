@@ -19,6 +19,7 @@
 		3A6860672199C26E002DEAA1 /* FindFromGramToMolAtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6860662199C26E002DEAA1 /* FindFromGramToMolAtom.swift */; };
 		3A6860692199C298002DEAA1 /* FindFromMolAtomToGram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6860682199C298002DEAA1 /* FindFromMolAtomToGram.swift */; };
 		3ABFF4C022302A18002998BB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABFF4BF22302A18002998BB /* SearchViewController.swift */; };
+		3AFBC4772237FD0F0017A21A /* Atoms.json in Resources */ = {isa = PBXBuildFile; fileRef = 3AFBC4762237FD0F0017A21A /* Atoms.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		3A6860662199C26E002DEAA1 /* FindFromGramToMolAtom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFromGramToMolAtom.swift; sourceTree = "<group>"; };
 		3A6860682199C298002DEAA1 /* FindFromMolAtomToGram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFromMolAtomToGram.swift; sourceTree = "<group>"; };
 		3ABFF4BF22302A18002998BB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		3AFBC4762237FD0F0017A21A /* Atoms.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Atoms.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				3A6860682199C298002DEAA1 /* FindFromMolAtomToGram.swift */,
 				3ABFF4BF22302A18002998BB /* SearchViewController.swift */,
 				3A2AEB8C219C60BD0097548D /* Atoms.swift */,
+				3AFBC4762237FD0F0017A21A /* Atoms.json */,
 				3A6860522199BC75002DEAA1 /* Main.storyboard */,
 				3A6860552199BC76002DEAA1 /* Assets.xcassets */,
 				3A6860572199BC76002DEAA1 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 			files = (
 				3A6860592199BC76002DEAA1 /* LaunchScreen.storyboard in Resources */,
 				3A6860562199BC76002DEAA1 /* Assets.xcassets in Resources */,
+				3AFBC4772237FD0F0017A21A /* Atoms.json in Resources */,
 				3A41430722287DF500B66F4F /* README.md in Resources */,
 				3A6860542199BC75002DEAA1 /* Main.storyboard in Resources */,
 			);
