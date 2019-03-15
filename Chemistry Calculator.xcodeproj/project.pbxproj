@@ -81,8 +81,8 @@
 				3A2AEB8C219C60BD0097548D /* Atoms.swift */,
 				3AFBC4762237FD0F0017A21A /* Atoms.json */,
 				3A6860522199BC75002DEAA1 /* Main.storyboard */,
-				3A6860552199BC76002DEAA1 /* Assets.xcassets */,
 				3A6860572199BC76002DEAA1 /* LaunchScreen.storyboard */,
+				3A6860552199BC76002DEAA1 /* Assets.xcassets */,
 				3A68605A2199BC76002DEAA1 /* Info.plist */,
 			);
 			path = "Chemistry Calculator";
