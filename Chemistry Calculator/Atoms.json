@@ -3,5 +3,40 @@
         "name": "Hydrogen",
         "short name": "Hi",
         "number": 1
-    }
+    },
+    {
+        "name": "Helium",
+        "short name": "He",
+        "number": 4
+    },
+    {
+        "name": "Lithium",
+        "short name": "Li",
+        "number": 7
+    },
+    {
+        "name": "Beryllium",
+        "short name": "Be",
+        "number": 9
+    },
+    {
+        "name": "Boron",
+        "short name": "B",
+        "number": 11
+    },
+    {
+        "name": "Carbon",
+        "short name": "C",
+        "number": 12
+    },
+    {
+        "name": "Nitrogen",
+        "short name": "N",
+        "number": 14
+    },
+    {
+        "name": "Oxygen",
+        "short name": "O",
+        "number": 16
+    },
 ]

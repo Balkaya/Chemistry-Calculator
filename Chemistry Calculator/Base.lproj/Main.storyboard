@@ -70,7 +70,35 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1079.2" y="133.00492610837438"/>
+            <point key="canvasLocation" x="550" y="132"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="KNl-v5-Xrm">
+            <objects>
+                <tableViewController id="eJ2-Hv-qTO" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="deg-Qp-osG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="caO-Vb-DRd">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="caO-Vb-DRd" id="lFB-O0-A2Q">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.666666666666664"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="eJ2-Hv-qTO" id="RyU-eq-YCJ"/>
+                            <outlet property="delegate" destination="eJ2-Hv-qTO" id="Bzu-dc-0mE"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lxt-f9-Ify" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1289" y="132"/>
         </scene>
         <!--Find From Mol Atom To Gram-->
         <scene sceneID="PZV-1B-Rfb">
@@ -199,6 +227,21 @@
             </objects>
             <point key="canvasLocation" x="1500" y="1176"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="htC-uB-tPp">
+            <objects>
+                <viewController id="BbZ-EB-5rI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b2A-FZ-dxO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="OqC-vx-bDc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T3k-PZ-roY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2204" y="1176"/>
+        </scene>
         <!--Find From Gram To Mol Atom-->
         <scene sceneID="6Nc-bT-Nff">
             <objects>
@@ -326,6 +369,21 @@
             </objects>
             <point key="canvasLocation" x="2442.4000000000001" y="464.77832512315274"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="TDA-C8-L0U">
+            <objects>
+                <viewController id="Szh-0j-jGP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sIu-mU-Ari">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Khc-4R-whR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oDG-71-qFK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3198" y="465"/>
+        </scene>
         <!--Atoms-->
         <scene sceneID="Qi8-9a-2rC">
             <objects>
@@ -334,7 +392,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MW7-kW-4uA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4126" y="115"/>
+            <point key="canvasLocation" x="4815" y="94"/>
         </scene>
         <!--Find Molecular Mass-->
         <scene sceneID="AQG-B0-wkM">
@@ -599,6 +657,21 @@
             </objects>
             <point key="canvasLocation" x="1500" y="-910.34482758620697"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Ykn-Vs-Qgk">
+            <objects>
+                <viewController id="XQf-aC-RnJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MXr-Ym-HwQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="19F-wQ-L49"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="moK-lc-USC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2204" y="-910"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="h7t-G5-57u">
             <objects>
@@ -625,7 +698,22 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xIw-A3-KK1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="133.00492610837438"/>
+            <point key="canvasLocation" x="-249" y="133"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Mvp-eq-fKe">
+            <objects>
+                <viewController id="xUP-7S-xBv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FRS-0B-1LN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="OuP-7h-paB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N9U-uc-53I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3198" y="-231"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ji2-6D-Kk4">
@@ -643,7 +731,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aze-Gj-Ban" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3368.8000000000002" y="114.53201970443351"/>
+            <point key="canvasLocation" x="4030" y="94"/>
         </scene>
     </scenes>
 </document>
