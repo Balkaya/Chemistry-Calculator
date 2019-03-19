@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Hu0-LO-7e2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0Cb-mb-u5Z">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -385,14 +385,54 @@
             <point key="canvasLocation" x="3198" y="465"/>
         </scene>
         <!--Atoms-->
-        <scene sceneID="Qi8-9a-2rC">
+        <scene sceneID="uh9-bi-nL5">
             <objects>
-                <tableViewController id="Lnt-9s-kZX" customClass="SearchViewController" customModule="Chemistry_Calculator" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" title="Atoms" largeTitleDisplayMode="always" id="68D-RH-X62"/>
+                <tableViewController id="RF4-3G-Pqv" customClass="SearchViewController" customModule="Chemistry_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="gSZ-Rp-1l8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.18039163950000001" green="0.1805484295" blue="0.1721922457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="separatorColor" red="0.27447596190000001" green="0.27452921870000002" blue="0.27447256450000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexColor" red="0.18039163950000001" green="0.1805484295" blue="0.1721922457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.18039163950000001" green="0.1805484295" blue="0.1721922457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexTrackingBackgroundColor" red="0.18039163950000001" green="0.1805484295" blue="0.1721922457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" textLabel="0HL-Xw-P8L" detailTextLabel="vSu-Sm-thf" rowHeight="57" style="IBUITableViewCellStyleSubtitle" id="zDL-H0-oV3">
+                                <rect key="frame" x="0.0" y="28" width="375" height="57"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zDL-H0-oV3" id="amb-OZ-0ht">
+                                    <rect key="frame" x="0.0" y="0.0" width="341" height="56.666666666666664"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0HL-Xw-P8L">
+                                            <rect key="frame" x="16.000000000000004" y="7.9999999999999982" width="33.333333333333336" height="20.333333333333332"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vSu-Sm-thf">
+                                            <rect key="frame" x="15.999999999999996" y="31.333333333333332" width="32.666666666666664" height="14.333333333333334"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.18039163950000001" green="0.1805484295" blue="0.1721922457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="RF4-3G-Pqv" id="bvg-4u-7o5"/>
+                            <outlet property="delegate" destination="RF4-3G-Pqv" id="qU3-pd-UvF"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Atoms" id="EiP-4C-bag"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MW7-kW-4uA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UTx-zf-lcg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4815" y="94"/>
+            <point key="canvasLocation" x="4842" y="94"/>
         </scene>
         <!--Find Molecular Mass-->
         <scene sceneID="AQG-B0-wkM">
@@ -716,22 +756,30 @@
             <point key="canvasLocation" x="3198" y="-231"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="Ji2-6D-Kk4">
+        <scene sceneID="fic-mq-Sna">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6H9-tv-LW1" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0Cb-mb-u5Z" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="W5M-zC-BvJ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="blackTranslucent" id="5Ae-jx-fs1">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.18039163950000001" green="0.1805484295" blue="0.1721922457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textShadowColor" red="0.18039163950000001" green="0.1805484295" blue="0.1721922457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" red="0.18039163950000001" green="0.1805484295" blue="0.1721922457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="textShadowColor" red="0.18039163950000001" green="0.1805484295" blue="0.1721922457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="Lnt-9s-kZX" kind="relationship" relationship="rootViewController" id="Iac-4K-NIM"/>
+                        <segue destination="RF4-3G-Pqv" kind="relationship" relationship="rootViewController" id="BYb-tH-0d8"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="aze-Gj-Ban" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AaU-4f-vQs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4030" y="94"/>
+            <point key="canvasLocation" x="4121" y="94"/>
         </scene>
     </scenes>
 </document>
