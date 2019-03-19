@@ -397,11 +397,11 @@
                         <color key="sectionIndexBackgroundColor" red="0.18039163950000001" green="0.1805484295" blue="0.1721922457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="sectionIndexTrackingBackgroundColor" red="0.18039163950000001" green="0.1805484295" blue="0.1721922457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="Cell" textLabel="0HL-Xw-P8L" detailTextLabel="vSu-Sm-thf" rowHeight="57" style="IBUITableViewCellStyleSubtitle" id="zDL-H0-oV3">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="0HL-Xw-P8L" detailTextLabel="vSu-Sm-thf" rowHeight="57" style="IBUITableViewCellStyleSubtitle" id="zDL-H0-oV3">
                                 <rect key="frame" x="0.0" y="28" width="375" height="57"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zDL-H0-oV3" id="amb-OZ-0ht">
-                                    <rect key="frame" x="0.0" y="0.0" width="341" height="56.666666666666664"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="56.666666666666664"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0HL-Xw-P8L">

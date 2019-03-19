@@ -10,6 +10,7 @@ import UIKit
 
 class SearchViewController: UITableViewController {
     var searchTexts = [String]()
+    var secondSearchTexts = [String]()
     var searching = false
 
     let search = UISearchController(searchResultsController: nil)
@@ -42,8 +43,10 @@ class SearchViewController: UITableViewController {
         
         if searching {
             cell!.textLabel?.text = searchTexts[indexPath.row]
+            cell!.detailTextLabel?.text = secondSearchTexts[indexPath.row]
         } else {
             cell!.textLabel?.text = atomsName[indexPath.row]
+            cell!.detailTextLabel?.text = atomsShortName[indexPath.row]
         }
         
         return cell!
