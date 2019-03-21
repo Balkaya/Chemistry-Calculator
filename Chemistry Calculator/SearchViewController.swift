@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SearchViewController: UITableViewController {
+class SearchViewController: UITableViewController, UISearchBarDelegate {
     var searchTexts = [String]()
     var secondSearchTexts = [String]()
     var searching = false
@@ -22,7 +22,7 @@ class SearchViewController: UITableViewController {
         
         search.searchBar.delegate = self as? UISearchBarDelegate
         search.obscuresBackgroundDuringPresentation = false
-        search.searchBar.placeholder = "Find a atom"
+        search.searchBar.placeholder = "Find an atom"
         search.searchBar.keyboardAppearance = .dark
         search.searchBar.tintColor = #colorLiteral(red: 0.3042124088, green: 0.8485361546, blue: 0.9998713136, alpha: 1)
         search.searchResultsUpdater = self as? UISearchResultsUpdating
@@ -43,7 +43,6 @@ class SearchViewController: UITableViewController {
         
         if searching {
             cell!.textLabel?.text = searchTexts[indexPath.row]
-            cell!.detailTextLabel?.text = secondSearchTexts[indexPath.row]
         } else {
             cell!.textLabel?.text = atomsName[indexPath.row]
             cell!.detailTextLabel?.text = atomsShortName[indexPath.row]

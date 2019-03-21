@@ -72,7 +72,7 @@
             </objects>
             <point key="canvasLocation" x="550" y="132"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Item-->
         <scene sceneID="KNl-v5-Xrm">
             <objects>
                 <tableViewController id="eJ2-Hv-qTO" sceneMemberID="viewController">
@@ -95,10 +95,12 @@
                             <outlet property="delegate" destination="eJ2-Hv-qTO" id="Bzu-dc-0mE"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Item" id="a53-Hn-7hz"/>
+                    <navigationItem key="navigationItem" id="R8V-4B-du3"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lxt-f9-Ify" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1289" y="132"/>
+            <point key="canvasLocation" x="2575" y="132"/>
         </scene>
         <!--Find From Mol Atom To Gram-->
         <scene sceneID="PZV-1B-Rfb">
@@ -367,7 +369,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3bR-Dp-w1e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2442.4000000000001" y="464.77832512315274"/>
+            <point key="canvasLocation" x="3482" y="480"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="TDA-C8-L0U">
@@ -382,7 +384,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oDG-71-qFK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3198" y="465"/>
+            <point key="canvasLocation" x="4238" y="480"/>
         </scene>
         <!--Atoms-->
         <scene sceneID="uh9-bi-nL5">
@@ -421,6 +423,9 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <color key="backgroundColor" red="0.18039163950000001" green="0.1805484295" blue="0.1721922457" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <segue destination="aDs-0E-j3N" kind="show" id="jbD-A1-dMV"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -432,7 +437,22 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UTx-zf-lcg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4842" y="94"/>
+            <point key="canvasLocation" x="5881" y="109"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1wQ-wc-2mH">
+            <objects>
+                <viewController id="aDs-0E-j3N" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FWo-de-pi9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.18845916045061203" green="0.19032509273230125" blue="0.19032509273230125" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="OKl-li-Q9t"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u9B-js-8Hb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6714" y="109"/>
         </scene>
         <!--Find Molecular Mass-->
         <scene sceneID="AQG-B0-wkM">
@@ -559,7 +579,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WNv-sI-ypC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2442.4000000000001" y="-231.2807881773399"/>
+            <point key="canvasLocation" x="3482" y="-216"/>
         </scene>
         <!--Find Mol Number-->
         <scene sceneID="jez-4d-iEW">
@@ -753,7 +773,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N9U-uc-53I" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3198" y="-231"/>
+            <point key="canvasLocation" x="4238" y="-216"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fic-mq-Sna">
@@ -779,7 +799,44 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AaU-4f-vQs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4121" y="94"/>
+            <point key="canvasLocation" x="5161" y="109"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="R6H-oT-IdH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ovr-W5-jUd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iCc-Iv-6BL">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="c8Y-Fh-cqi" kind="relationship" relationship="rootViewController" id="Rfu-SN-SkC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RlE-kY-9RO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1244" y="132"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="fKi-0N-Btk">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="c8Y-Fh-cqi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="NdU-f5-GQh"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Nvk-rB-fKV">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="eJ2-Hv-qTO" kind="relationship" relationship="viewControllers" id="k30-Yb-jLh"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aoW-ia-2xH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1866" y="132"/>
         </scene>
     </scenes>
 </document>
