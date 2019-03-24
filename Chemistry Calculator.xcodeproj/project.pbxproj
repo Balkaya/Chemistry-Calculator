@@ -19,6 +19,8 @@
 		3A6860672199C26E002DEAA1 /* FindFromGramToMolAtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6860662199C26E002DEAA1 /* FindFromGramToMolAtom.swift */; };
 		3A6860692199C298002DEAA1 /* FindFromMolAtomToGram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6860682199C298002DEAA1 /* FindFromMolAtomToGram.swift */; };
 		3ABFF4C022302A18002998BB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABFF4BF22302A18002998BB /* SearchViewController.swift */; };
+		3AF3D9E12247F3CC00A067C3 /* Hydrogen.text in Resources */ = {isa = PBXBuildFile; fileRef = 3AF3D9E02247F3CC00A067C3 /* Hydrogen.text */; };
+		3AF3D9FC2247F4D800A067C3 /* Screen Shot 2019-03-24 at 20.23.49.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AF3D9F62247F4D700A067C3 /* Screen Shot 2019-03-24 at 20.23.49.png */; };
 		3AFBC4772237FD0F0017A21A /* Atoms.json in Resources */ = {isa = PBXBuildFile; fileRef = 3AFBC4762237FD0F0017A21A /* Atoms.json */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		3A6860662199C26E002DEAA1 /* FindFromGramToMolAtom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFromGramToMolAtom.swift; sourceTree = "<group>"; };
 		3A6860682199C298002DEAA1 /* FindFromMolAtomToGram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFromMolAtomToGram.swift; sourceTree = "<group>"; };
 		3ABFF4BF22302A18002998BB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		3AF3D9E02247F3CC00A067C3 /* Hydrogen.text */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Hydrogen.text; sourceTree = "<group>"; };
+		3AF3D9F62247F4D700A067C3 /* Screen Shot 2019-03-24 at 20.23.49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-03-24 at 20.23.49.png"; sourceTree = "<group>"; };
 		3AFBC4762237FD0F0017A21A /* Atoms.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Atoms.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +75,7 @@
 		3A68604D2199BC75002DEAA1 /* Chemistry Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				3AF3D9E22247F43C00A067C3 /* Sources */,
 				3A68604E2199BC75002DEAA1 /* AppDelegate.swift */,
 				3A6860502199BC75002DEAA1 /* ViewController.swift */,
 				3A6860622199C20C002DEAA1 /* FindMolNumber.swift */,
@@ -86,6 +91,31 @@
 				3A68605A2199BC76002DEAA1 /* Info.plist */,
 			);
 			path = "Chemistry Calculator";
+			sourceTree = "<group>";
+		};
+		3AF3D9E22247F43C00A067C3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3AF3D9E42247F44C00A067C3 /* Texts */,
+				3AF3D9E32247F44700A067C3 /* Images */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		3AF3D9E32247F44700A067C3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3AF3D9F62247F4D700A067C3 /* Screen Shot 2019-03-24 at 20.23.49.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3AF3D9E42247F44C00A067C3 /* Texts */ = {
+			isa = PBXGroup;
+			children = (
+				3AF3D9E02247F3CC00A067C3 /* Hydrogen.text */,
+			);
+			path = Texts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +180,9 @@
 				3A6860562199BC76002DEAA1 /* Assets.xcassets in Resources */,
 				3AFBC4772237FD0F0017A21A /* Atoms.json in Resources */,
 				3A41430722287DF500B66F4F /* README.md in Resources */,
+				3AF3D9E12247F3CC00A067C3 /* Hydrogen.text in Resources */,
 				3A6860542199BC75002DEAA1 /* Main.storyboard in Resources */,
+				3AF3D9FC2247F4D800A067C3 /* Screen Shot 2019-03-24 at 20.23.49.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
