@@ -50,6 +50,7 @@
                     <navigationItem key="navigationItem" title="Search" largeTitleDisplayMode="always" id="EiP-4C-bag">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="ellipsis.circle" catalog="system" id="iMh-PN-Pb3">
                             <connections>
+                                <action selector="settingsButton:" destination="RF4-3G-Pqv" id="tng-Pe-fYD"/>
                                 <segue destination="pe8-zL-lWZ" kind="showDetail" id="NOk-nJ-vHE"/>
                             </connections>
                         </barButtonItem>

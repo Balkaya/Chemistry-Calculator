@@ -19,7 +19,6 @@ class SearchViewController: UITableViewController, UISearchBarDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         navigationController?.navigationBar.prefersLargeTitles = true
         
         search.searchResultsUpdater = self as? UISearchResultsUpdating
@@ -77,5 +76,8 @@ class SearchViewController: UITableViewController, UISearchBarDelegate {
         searching = false
         search.searchBar.text = ""
         tableView.reloadData()
+    }
+    
+    @IBAction func settingsButton(_ sender: UIBarButtonItem) {
     }
 }
