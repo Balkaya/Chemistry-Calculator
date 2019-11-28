@@ -10,17 +10,13 @@
 		3A2AEB8D219C60BD0097548D /* Atoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2AEB8C219C60BD0097548D /* Atoms.swift */; };
 		3A41430722287DF500B66F4F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3A41430622287DF500B66F4F /* README.md */; };
 		3A68604F2199BC75002DEAA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A68604E2199BC75002DEAA1 /* AppDelegate.swift */; };
-		3A6860512199BC75002DEAA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6860502199BC75002DEAA1 /* ViewController.swift */; };
 		3A6860542199BC75002DEAA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6860522199BC75002DEAA1 /* Main.storyboard */; };
 		3A6860562199BC76002DEAA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6860552199BC76002DEAA1 /* Assets.xcassets */; };
 		3A6860592199BC76002DEAA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6860572199BC76002DEAA1 /* LaunchScreen.storyboard */; };
-		3A6860632199C20C002DEAA1 /* FindMolNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6860622199C20C002DEAA1 /* FindMolNumber.swift */; };
-		3A6860652199C24B002DEAA1 /* FindMolecularMass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6860642199C24B002DEAA1 /* FindMolecularMass.swift */; };
-		3A6860672199C26E002DEAA1 /* FindFromGramToMolAtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6860662199C26E002DEAA1 /* FindFromGramToMolAtom.swift */; };
-		3A6860692199C298002DEAA1 /* FindFromMolAtomToGram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6860682199C298002DEAA1 /* FindFromMolAtomToGram.swift */; };
+		3A6F824F23904B230086F975 /* AtomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F824E23904B230086F975 /* AtomVC.swift */; };
+		3A6F8253239058E20086F975 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F8252239058E20086F975 /* Settings.swift */; };
 		3ABFF4C022302A18002998BB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABFF4BF22302A18002998BB /* SearchViewController.swift */; };
 		3AF3D9E12247F3CC00A067C3 /* Hydrogen.text in Resources */ = {isa = PBXBuildFile; fileRef = 3AF3D9E02247F3CC00A067C3 /* Hydrogen.text */; };
-		3AF3D9FC2247F4D800A067C3 /* Screen Shot 2019-03-24 at 20.23.49.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AF3D9F62247F4D700A067C3 /* Screen Shot 2019-03-24 at 20.23.49.png */; };
 		3AFBC4772237FD0F0017A21A /* Atoms.json in Resources */ = {isa = PBXBuildFile; fileRef = 3AFBC4762237FD0F0017A21A /* Atoms.json */; };
 /* End PBXBuildFile section */
 
@@ -29,18 +25,14 @@
 		3A41430622287DF500B66F4F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3A68604B2199BC75002DEAA1 /* Chemistry Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chemistry Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A68604E2199BC75002DEAA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A6860502199BC75002DEAA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A6860532199BC75002DEAA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A6860552199BC76002DEAA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A6860582199BC76002DEAA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A68605A2199BC76002DEAA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A6860622199C20C002DEAA1 /* FindMolNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMolNumber.swift; sourceTree = "<group>"; };
-		3A6860642199C24B002DEAA1 /* FindMolecularMass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMolecularMass.swift; sourceTree = "<group>"; };
-		3A6860662199C26E002DEAA1 /* FindFromGramToMolAtom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFromGramToMolAtom.swift; sourceTree = "<group>"; };
-		3A6860682199C298002DEAA1 /* FindFromMolAtomToGram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFromMolAtomToGram.swift; sourceTree = "<group>"; };
+		3A6F824E23904B230086F975 /* AtomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomVC.swift; sourceTree = "<group>"; };
+		3A6F8252239058E20086F975 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		3ABFF4BF22302A18002998BB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		3AF3D9E02247F3CC00A067C3 /* Hydrogen.text */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Hydrogen.text; sourceTree = "<group>"; };
-		3AF3D9F62247F4D700A067C3 /* Screen Shot 2019-03-24 at 20.23.49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2019-03-24 at 20.23.49.png"; sourceTree = "<group>"; };
 		3AFBC4762237FD0F0017A21A /* Atoms.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Atoms.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,12 +69,9 @@
 			children = (
 				3AF3D9E22247F43C00A067C3 /* Sources */,
 				3A68604E2199BC75002DEAA1 /* AppDelegate.swift */,
-				3A6860502199BC75002DEAA1 /* ViewController.swift */,
-				3A6860622199C20C002DEAA1 /* FindMolNumber.swift */,
-				3A6860642199C24B002DEAA1 /* FindMolecularMass.swift */,
-				3A6860662199C26E002DEAA1 /* FindFromGramToMolAtom.swift */,
-				3A6860682199C298002DEAA1 /* FindFromMolAtomToGram.swift */,
 				3ABFF4BF22302A18002998BB /* SearchViewController.swift */,
+				3A6F824E23904B230086F975 /* AtomVC.swift */,
+				3A6F8252239058E20086F975 /* Settings.swift */,
 				3A2AEB8C219C60BD0097548D /* Atoms.swift */,
 				3AFBC4762237FD0F0017A21A /* Atoms.json */,
 				3A6860522199BC75002DEAA1 /* Main.storyboard */,
@@ -97,17 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				3AF3D9E42247F44C00A067C3 /* Texts */,
-				3AF3D9E32247F44700A067C3 /* Images */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		3AF3D9E32247F44700A067C3 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				3AF3D9F62247F4D700A067C3 /* Screen Shot 2019-03-24 at 20.23.49.png */,
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 		3AF3D9E42247F44C00A067C3 /* Texts */ = {
@@ -182,7 +162,6 @@
 				3A41430722287DF500B66F4F /* README.md in Resources */,
 				3AF3D9E12247F3CC00A067C3 /* Hydrogen.text in Resources */,
 				3A6860542199BC75002DEAA1 /* Main.storyboard in Resources */,
-				3AF3D9FC2247F4D800A067C3 /* Screen Shot 2019-03-24 at 20.23.49.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,14 +172,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A6860692199C298002DEAA1 /* FindFromMolAtomToGram.swift in Sources */,
-				3A6860632199C20C002DEAA1 /* FindMolNumber.swift in Sources */,
+				3A6F824F23904B230086F975 /* AtomVC.swift in Sources */,
 				3ABFF4C022302A18002998BB /* SearchViewController.swift in Sources */,
 				3A2AEB8D219C60BD0097548D /* Atoms.swift in Sources */,
-				3A6860652199C24B002DEAA1 /* FindMolecularMass.swift in Sources */,
-				3A6860672199C26E002DEAA1 /* FindFromGramToMolAtom.swift in Sources */,
-				3A6860512199BC75002DEAA1 /* ViewController.swift in Sources */,
 				3A68604F2199BC75002DEAA1 /* AppDelegate.swift in Sources */,
+				3A6F8253239058E20086F975 /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -332,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

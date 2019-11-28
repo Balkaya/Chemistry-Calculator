@@ -15,12 +15,16 @@ class SearchViewController: UITableViewController, UISearchBarDelegate {
 
     let search = UISearchController(searchResultsController: nil)
     
+    var selectedAtomName = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        search.searchResultsUpdater = self as? UISearchResultsUpdating
+        navigationController?.navigationBar.prefersLargeTitles = true
         
-        search.searchBar.delegate = self as? UISearchBarDelegate
+        search.searchResultsUpdater = self as? UISearchResultsUpdating
+
+        search.searchBar.delegate = self
         search.obscuresBackgroundDuringPresentation = false
         search.searchBar.placeholder = "Find an atom"
         search.searchBar.keyboardAppearance = .dark
@@ -49,6 +53,18 @@ class SearchViewController: UITableViewController, UISearchBarDelegate {
         }
         
         return cell!
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toAtomVC" {
+            let destinationVC = segue.destination as! AtomVC
+            destinationVC.atomsName = selectedAtomName
+        }
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedAtomName = atomsName[indexPath.row]
+        performSegue(withIdentifier: "toAtomVC", sender: nil)
     }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
