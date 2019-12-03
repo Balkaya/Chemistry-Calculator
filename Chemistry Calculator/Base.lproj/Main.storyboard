@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0Cb-mb-u5Z">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -56,7 +55,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="aDs-0E-j3N" kind="show" identifier="toAtomVC" id="AsK-IA-H15"/>
+                        <segue destination="Vfl-35-fY9" kind="show" identifier="toAtomVC" id="nwS-47-KEA"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UTx-zf-lcg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -77,35 +76,38 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="295-H0-Nyc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7068" y="-255"/>
+            <point key="canvasLocation" x="7062" y="-243"/>
         </scene>
         <!--Atom's Name-->
-        <scene sceneID="1wQ-wc-2mH">
+        <scene sceneID="33V-T8-cKn">
             <objects>
-                <viewController id="aDs-0E-j3N" customClass="AtomVC" customModule="Chemistry_Calculator" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="FWo-de-pi9">
+                <viewController id="Vfl-35-fY9" customClass="AtomVC" customModule="Chemistry_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kie-Dw-Fwx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2Nt-YZ-CMb">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7Ab-KW-kWI">
                                 <rect key="frame" x="16" y="88" width="343" height="724"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="OKl-li-Q9t"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="03I-qt-VpD" firstAttribute="trailing" secondItem="7Ab-KW-kWI" secondAttribute="trailing" constant="16" id="2i2-SW-l6O"/>
+                            <constraint firstAttribute="bottom" secondItem="7Ab-KW-kWI" secondAttribute="bottom" id="KdS-Wz-LwU"/>
+                            <constraint firstItem="7Ab-KW-kWI" firstAttribute="top" secondItem="03I-qt-VpD" secondAttribute="top" id="ZRS-JS-KhA"/>
+                            <constraint firstItem="7Ab-KW-kWI" firstAttribute="leading" secondItem="03I-qt-VpD" secondAttribute="leading" constant="16" id="mOY-Xq-tXw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="03I-qt-VpD"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Atom's Name" largeTitleDisplayMode="always" id="bdl-Tn-Kjq"/>
-                    <connections>
-                        <outlet property="atomsText" destination="2Nt-YZ-CMb" id="eMW-9x-Yfo"/>
-                    </connections>
+                    <navigationItem key="navigationItem" title="Atom's Name" id="Tgt-K3-1nz"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="u9B-js-8Hb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ptd-w4-uh9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7068" y="464"/>
+            <point key="canvasLocation" x="7062" y="460"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fic-mq-Sna">
