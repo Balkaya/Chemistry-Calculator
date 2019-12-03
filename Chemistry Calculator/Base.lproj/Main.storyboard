@@ -49,8 +49,7 @@
                     <navigationItem key="navigationItem" title="Search" largeTitleDisplayMode="always" id="EiP-4C-bag">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="ellipsis.circle" catalog="system" id="iMh-PN-Pb3">
                             <connections>
-                                <action selector="settingsButton:" destination="RF4-3G-Pqv" id="tng-Pe-fYD"/>
-                                <segue destination="pe8-zL-lWZ" kind="showDetail" id="NOk-nJ-vHE"/>
+                                <segue destination="B9M-tx-WDM" kind="showDetail" destinationCreationSelector="segueAction:" id="zd1-ux-fOM"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -62,21 +61,15 @@
             </objects>
             <point key="canvasLocation" x="6220" y="109"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="iu6-Vp-QR0">
+        <!--Hosting Controller-->
+        <scene sceneID="qyL-sK-RZY">
             <objects>
-                <viewController id="pe8-zL-lWZ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="uoZ-nb-Glw">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="NM9-9L-rA3"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="X5A-rh-sd7"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="295-H0-Nyc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <hostingController id="B9M-tx-WDM" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="elH-pO-ebh"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GGI-W7-S46" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7062" y="-243"/>
+            <point key="canvasLocation" x="7062" y="-246"/>
         </scene>
         <!--Atom's Name-->
         <scene sceneID="33V-T8-cKn">
@@ -96,14 +89,17 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="03I-qt-VpD" firstAttribute="trailing" secondItem="7Ab-KW-kWI" secondAttribute="trailing" constant="16" id="2i2-SW-l6O"/>
-                            <constraint firstAttribute="bottom" secondItem="7Ab-KW-kWI" secondAttribute="bottom" id="KdS-Wz-LwU"/>
-                            <constraint firstItem="7Ab-KW-kWI" firstAttribute="top" secondItem="03I-qt-VpD" secondAttribute="top" id="ZRS-JS-KhA"/>
-                            <constraint firstItem="7Ab-KW-kWI" firstAttribute="leading" secondItem="03I-qt-VpD" secondAttribute="leading" constant="16" id="mOY-Xq-tXw"/>
+                            <constraint firstItem="7Ab-KW-kWI" firstAttribute="trailing" secondItem="kie-Dw-Fwx" secondAttribute="trailingMargin" id="CFE-yQ-4vO"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="7Ab-KW-kWI" secondAttribute="bottom" constant="-34" id="DtX-zf-4oH"/>
+                            <constraint firstItem="7Ab-KW-kWI" firstAttribute="leading" secondItem="kie-Dw-Fwx" secondAttribute="leadingMargin" id="VGd-sk-2ty"/>
+                            <constraint firstItem="7Ab-KW-kWI" firstAttribute="top" secondItem="03I-qt-VpD" secondAttribute="top" id="dQ7-0V-i2J"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="03I-qt-VpD"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Atom's Name" id="Tgt-K3-1nz"/>
+                    <navigationItem key="navigationItem" title="Atom's Name" largeTitleDisplayMode="always" id="Tgt-K3-1nz"/>
+                    <connections>
+                        <outlet property="atomsText" destination="7Ab-KW-kWI" id="mk6-0z-Cs3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ptd-w4-uh9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

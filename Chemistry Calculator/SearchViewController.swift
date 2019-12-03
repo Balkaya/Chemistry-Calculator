@@ -7,30 +7,29 @@
 //
 
 import UIKit
+import SwiftUI
 
 class SearchViewController: UITableViewController, UISearchBarDelegate {
     var searchTexts = [String]()
     var secondSearchTexts = [String]()
     var searching = false
-
     let search = UISearchController(searchResultsController: nil)
-    
     var selectedAtomName = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationController?.navigationBar.prefersLargeTitles = true
         
         search.searchResultsUpdater = self as? UISearchResultsUpdating
-
         search.searchBar.delegate = self
         search.obscuresBackgroundDuringPresentation = false
         search.searchBar.placeholder = "Find an atom"
         search.searchBar.keyboardAppearance = .dark
         search.searchBar.tintColor = #colorLiteral(red: 0.3042124088, green: 0.8485361546, blue: 0.9998713136, alpha: 1)
         search.searchResultsUpdater = self as? UISearchResultsUpdating
+        
         navigationItem.searchController = search
         navigationItem.hidesSearchBarWhenScrolling = false
+        navigationController?.navigationBar.prefersLargeTitles = true
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -78,6 +77,7 @@ class SearchViewController: UITableViewController, UISearchBarDelegate {
         tableView.reloadData()
     }
     
-    @IBAction func settingsButton(_ sender: UIBarButtonItem) {
+    @IBSegueAction func segueAction(_ coder: NSCoder) -> UIViewController? {
+        return UIHostingController(coder: coder, rootView: Settings())
     }
 }
