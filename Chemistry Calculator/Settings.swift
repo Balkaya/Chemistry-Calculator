@@ -32,7 +32,9 @@ struct Settings: View {
                     }
                 }
             }.navigationBarTitle(Text("Settings"), displayMode: .large)
-             .navigationBarItems(trailing: Button(action: {}) {
+             .navigationBarItems(trailing: Button(action: {
+                
+             }) {
                 Text("Done").bold()
             })
         }

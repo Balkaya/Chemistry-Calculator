@@ -15,6 +15,7 @@
 		3A6860592199BC76002DEAA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6860572199BC76002DEAA1 /* LaunchScreen.storyboard */; };
 		3A6F824F23904B230086F975 /* AtomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F824E23904B230086F975 /* AtomVC.swift */; };
 		3A6F8253239058E20086F975 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F8252239058E20086F975 /* Settings.swift */; };
+		3A9F1070239982130022835D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F106E239982130022835D /* Model.xcdatamodeld */; };
 		3ABFF4C022302A18002998BB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABFF4BF22302A18002998BB /* SearchViewController.swift */; };
 		3AF3D9E12247F3CC00A067C3 /* Hydrogen.text in Resources */ = {isa = PBXBuildFile; fileRef = 3AF3D9E02247F3CC00A067C3 /* Hydrogen.text */; };
 		3AFBC4772237FD0F0017A21A /* Atoms.json in Resources */ = {isa = PBXBuildFile; fileRef = 3AFBC4762237FD0F0017A21A /* Atoms.json */; };
@@ -31,6 +32,7 @@
 		3A68605A2199BC76002DEAA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A6F824E23904B230086F975 /* AtomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomVC.swift; sourceTree = "<group>"; };
 		3A6F8252239058E20086F975 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		3A9F106F239982130022835D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		3ABFF4BF22302A18002998BB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		3AF3D9E02247F3CC00A067C3 /* Hydrogen.text */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Hydrogen.text; sourceTree = "<group>"; };
 		3AFBC4762237FD0F0017A21A /* Atoms.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Atoms.json; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				3A6860572199BC76002DEAA1 /* LaunchScreen.storyboard */,
 				3A6860552199BC76002DEAA1 /* Assets.xcassets */,
 				3A68605A2199BC76002DEAA1 /* Info.plist */,
+				3A9F106E239982130022835D /* Model.xcdatamodeld */,
 			);
 			path = "Chemistry Calculator";
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				3A2AEB8D219C60BD0097548D /* Atoms.swift in Sources */,
 				3A68604F2199BC75002DEAA1 /* AppDelegate.swift in Sources */,
 				3A6F8253239058E20086F975 /* Settings.swift in Sources */,
+				3A9F1070239982130022835D /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +380,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A9F106E239982130022835D /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A9F106F239982130022835D /* Model.xcdatamodel */,
+			);
+			currentVersion = 3A9F106F239982130022835D /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3A6860432199BC75002DEAA1 /* Project object */;
 }
